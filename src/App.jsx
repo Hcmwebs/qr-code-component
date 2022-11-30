@@ -13,14 +13,14 @@ body {
 	width: 100%;
 	min-height:100vh;
 	font-family: 'Poppins', sans-serif;
-background: #2980B9;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-display: grid;
-place-items: center;
-padding: 0;
-margin: 0;
-box-sizing:border-box
+	background: #2980B9;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	display: grid;
+	place-items: center;
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box
 }
 
 `
@@ -39,7 +39,6 @@ const StyledCardWrapper = styled.div`
 	width: min(100%, 320px);
 	margin-inline: auto;
 	${styledGrid};
-	border: 1px solid red;
 `
 
 const StyledCard = styled.div`
@@ -50,6 +49,7 @@ const StyledCard = styled.div`
 	gap: 2rem;
 	border-radius: 10px;
 	border: 1px solid red;
+	box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.2);
 `
 const StyledCardHeader = styled.div`
 	${styledGrid};
@@ -74,7 +74,6 @@ const App = () => {
 		<>
 			<GlobalStyle />
 			<StyledCardWrapper>
-				<h1>App goes here!!</h1>
 				<StyledCard>
 					<StyledCardHeader>
 						<img src='/Assets/image-qr-code.png' alt='qr-code' />
