@@ -1,11 +1,34 @@
 import { useState } from 'react'
-import Globalstyles, {css} from 'styled-components'
+import styled, {createGlobalStyles,css} from 'styled-components'
+
+const GlobalStyles = createGlobalStyles`
+
+`
+
+const StyleGrid = css `
+
+
+
+`
+const StyledCardWrapper = styled.div`
+
+`
+const StyledCard = styled.div`
+
+`
+const StyledCardHeader = styled.div`
+
+`
+const StyledCardBody = styled.div `
+
+`
 
 const App = () => {
 	return (
-		<div>
-			<h1>App</h1>
-		</div>
+		<GlobalStyles />
+    <StyledCardWrapper>
+<h1>App goes here!!</h1>
+    </StyledCardWrapper>
 	)
 }
 
