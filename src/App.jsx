@@ -10,7 +10,6 @@ html{
 }
 
 body {
-	width: 100%;
 	min-height:100vh;
 	font-family: 'Poppins', sans-serif;
 	background: #2980B9;  /* fallback for old browsers */
@@ -36,12 +35,13 @@ const styledFlex = css`
 `
 
 const StyledCardWrapper = styled.div`
-	width: min(100%, 320px);
+	width: min(100%, 1000px);
 	margin-inline: auto;
 	${styledGrid};
 `
 
 const StyledCard = styled.div`
+	width: min(100%,320px);
 	padding: 1rem;
 	${styledFlex};
 	justify-content: space-between;
