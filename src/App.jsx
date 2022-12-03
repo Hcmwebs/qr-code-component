@@ -37,11 +37,12 @@ const styledFlex = css`
 const StyledCardWrapper = styled.div`
 	width: min(100%, 1000px);
 	margin-inline: auto;
+	border: 4px solid red;
 	${styledGrid};
 `
 
 const StyledCard = styled.div`
-	width: min(100%,320px);
+	width: min(100%, 320px);
 	padding: 1rem;
 	${styledFlex};
 	justify-content: space-between;
