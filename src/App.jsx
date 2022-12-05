@@ -44,7 +44,7 @@ const StyledCardWrapper = styled.main`
 const StyledCard = styled.div`
 	width: min(100%, 320px);
 	padding: 1rem;
-	${styledFlex};
+	${styledGrid};
 	justify-content: space-between;
 	flex-direction: column;
 	gap: 2rem;
@@ -58,11 +58,11 @@ const StyledCardHeader = styled.div`
 	height: 288px;
 
 	img {
-		width: 100%;
+		max-width: 100%;
 		height: 100%;
 		display: block;
 		border-radius: 5px;
-		object-fit: center;
+		object-fit: cover;
 		overflow: hidden;
 	}
 `
