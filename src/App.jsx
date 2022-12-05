@@ -34,7 +34,7 @@ const styledFlex = css`
 	align-items: center;
 `
 
-const StyledCardWrapper = styled.div`
+const StyledCardWrapper = styled.main`
 	width: min(100%, 1000px);
 	margin-inline: auto;
 	border: 4px solid red;
