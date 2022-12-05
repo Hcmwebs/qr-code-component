@@ -3,7 +3,8 @@ import styled, { createGlobalStyle, css } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
 html{
 	height: 100%;
 	font-size:100%
@@ -11,10 +12,8 @@ html{
 
 body {
 	min-height:100vh;
-	font-family: 'Poppins', sans-serif;
-	background: #2980B9;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	font-family: 'Outfit', sans-serif;
+	background: rgba(213, 225, 239, 1);
 	display: grid;
 	place-items: center;
 	padding: 0;
@@ -28,37 +27,30 @@ const styledGrid = css`
 	display: grid;
 	place-items: center;
 `
-const styledFlex = css`
-	display: flex;
-	justify-content: center;
-	align-items: center;
-`
 
 const StyledCardWrapper = styled.main`
 	width: min(100%, 1000px);
 	margin-inline: auto;
-	border: 4px solid red;
 	${styledGrid};
 `
 
 const StyledCard = styled.div`
-	width: min(100%, 320px);
-	padding: 1rem;
+	width: 320px;
+	height: 497px;
 	${styledGrid};
-	justify-content: space-between;
-	flex-direction: column;
 	gap: 2rem;
-	border-radius: 10px;
-	border: 1px solid red;
-	box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.2);
+	border-radius: 20px;
+	background-color: #fff;
+	box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.04);
 `
 const StyledCardHeader = styled.div`
 	${styledGrid};
-	width: 100%;
+	width: 288px;
 	height: 288px;
+	padding-top: 1rem;
 
 	img {
-		max-width: 100%;
+		width: 100%;
 		height: 100%;
 		display: block;
 		border-radius: 5px;
@@ -67,7 +59,29 @@ const StyledCardHeader = styled.div`
 	}
 `
 const StyledCardBody = styled.div`
+	width: 288px;
 	${styledGrid};
+	gap: 1rem;
+	padding: 0 1rem 1.5rem 1rem;
+
+	h1 {
+		font-size: 22px;
+		font-weight: 700;
+		line-height: 28px;
+		text-align: center;
+		margin: 0;
+		color: rgba(31, 49, 79, 1);
+	}
+
+	p {
+		font-size: 15px;
+		line-height: 19px;
+		margin: 0;
+		padding-inline: 1rem;
+		text-align: center;
+		letter-spacing: 0.19px;
+		color: rgba(125, 136, 158, 1);
+	}
 `
 
 const App = () => {
@@ -80,12 +94,10 @@ const App = () => {
 						<img src='/Assets/image-qr-code.png' alt='qr-code' />
 					</StyledCardHeader>
 					<StyledCardBody>
-						<h3>Lorem ipsum dolor sit amet.</h3>
+						<h1>Improve your front-end skills by building projects</h1>
 						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
-							quia totam asperiores quaerat blanditiis, consectetur nihil
-							voluptatum explicabo, magni id similique aut qui illum facilis
-							nulla possimus. Nam, id doloribus!
+							Scan the QR code to visit Frontend Mentor and take your coding
+							skills to the next level
 						</p>
 					</StyledCardBody>
 				</StyledCard>
