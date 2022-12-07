@@ -6,7 +6,6 @@ const GlobalStyle = createGlobalStyle`
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
 html{
-	height: 100%;
 	font-size:100%
 }
 
@@ -36,9 +35,9 @@ const StyledCardWrapper = styled.main`
 
 const StyledCard = styled.div`
 	width: 320px;
-	height: 497px;
+	padding: 1rem 0 1.5rem 0;
 	${styledGrid};
-	gap: 2rem;
+	gap: 1.5rem;
 	border-radius: 20px;
 	background-color: #fff;
 	box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.04);
@@ -47,22 +46,30 @@ const StyledCardHeader = styled.div`
 	${styledGrid};
 	width: 288px;
 	height: 288px;
-	padding-top: 1rem;
+
+
+	a {
+		text-decoration: none;
+		display: block;
+		width: 100%;
+		height: 100%;
+		cursor: pointer;
+	}
 
 	img {
 		width: 100%;
 		height: 100%;
 		display: block;
-		border-radius: 5px;
+		border-radius: 10px;
 		object-fit: cover;
 		overflow: hidden;
 	}
 `
 const StyledCardBody = styled.div`
-	width: 288px;
+	max-width: 288px;
 	${styledGrid};
-	gap: 1rem;
-	padding: 0 1rem 1.5rem 1rem;
+	gap:1rem;
+
 
 	h1 {
 		font-size: 22px;
@@ -75,9 +82,11 @@ const StyledCardBody = styled.div`
 
 	p {
 		font-size: 15px;
+		font-weight: 400;
 		line-height: 19px;
 		margin: 0;
-		padding-inline: 1rem;
+		padding: 1rem;
+		padding-top: 0;
 		text-align: center;
 		letter-spacing: 0.19px;
 		color: rgba(125, 136, 158, 1);
@@ -91,7 +100,12 @@ const App = () => {
 			<StyledCardWrapper>
 				<StyledCard>
 					<StyledCardHeader>
-						<img src='/Assets/image-qr-code.png' alt='qr-code' />
+						<a
+							href='https://www.frontendmentor.io/'
+							target='_blank'
+							rel='noopener noreferrer'>
+							<img src='/Assets/image-qr-code.png' alt='qr-code' />
+						</a>
 					</StyledCardHeader>
 					<StyledCardBody>
 						<h1>Improve your front-end skills by building projects</h1>
