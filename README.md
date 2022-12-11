@@ -46,10 +46,12 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
 - [Styled Components](https://styled-components.com/) - For styles
+- [Vite](https://vitejs.dev/) - The next generation frontend tooling
+
 
 ### What I learned
-
-- Styled components have more flexibility and easy to reuse as they are components as well
+- Styled components have more flexibility and easy to reuse as they are components as well.
+- Vite offers a faster development environment and lighter project files.
 
 
 
@@ -68,6 +70,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - [Stack Overflow](https://stackoverflow.com/) - Every developer's friend.
 - [Google](https://www.google.com) - This is always a life a saver.
 - [Styled Components](https://styled-components.com/) - Game changer in styling react components.
+- [Vite](https://vitejs.dev/) - Is literally the next generation frontend tooling.
+
 ## Author
 
 - Website - [hcmwebs](https://www.hcmwebs.com)
