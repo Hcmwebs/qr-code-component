@@ -1,49 +1,10 @@
 import React from 'react'
 import styled, { createGlobalStyle, css } from 'styled-components'
+import {GlobalStyles, StyledContainer,StyledCard} from './Components/styled'
 
-const GlobalStyle = createGlobalStyle`
-
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
-
-html{
-	font-size:100%
-}
-
-body {
-	min-height:100vh;
-	font-family: 'Outfit', sans-serif;
-	background: rgba(213, 225, 239, 1);
-	display: grid;
-	place-items: center;
-	padding: 0;
-	margin: 0;
-	box-sizing:border-box
-}
-
-`
-
-const styledGrid = css`
-	display: grid;
-	place-items: center;
-`
-
-const StyledCardWrapper = styled.main`
-	width: min(100%, 1000px);
-	margin-inline: auto;
-	${styledGrid};
-`
-
-const StyledCard = styled.div`
-	width: 320px;
-	padding: 1rem 0 1.5rem 0;
-	${styledGrid};
-	gap: 1.5rem;
-	border-radius: 20px;
-	background-color: #fff;
-	box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.04);
-`
 const StyledCardHeader = styled.div`
-	${styledGrid};
+	display: grid;
+	place-items: center;
 	width: 288px;
 	height: 288px;
 
@@ -67,7 +28,8 @@ const StyledCardHeader = styled.div`
 `
 const StyledCardBody = styled.div`
 	max-width: 288px;
-	${styledGrid};
+	display: grid;
+	place-items: center;
 	gap:1rem;
 
 
@@ -96,8 +58,8 @@ const StyledCardBody = styled.div`
 const App = () => {
 	return (
 		<>
-			<GlobalStyle />
-			<StyledCardWrapper>
+			<GlobalStyles />
+			<StyledContainer>
 				<StyledCard>
 					<StyledCardHeader>
 						<a
@@ -115,7 +77,7 @@ const App = () => {
 						</p>
 					</StyledCardBody>
 				</StyledCard>
-			</StyledCardWrapper>
+			</StyledContainer>
 		</>
 	)
 }
