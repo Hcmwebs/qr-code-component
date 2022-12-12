@@ -80,4 +80,4 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ## Acknowledgments
 
-- [Frontendmentor](https://www.frontendmentor.io/) - Thank you very much for creating this platform.
+- [Frontend-mentor](https://www.frontendmentor.io/) - Thank you very much for creating this platform.
