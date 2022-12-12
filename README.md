@@ -15,17 +15,14 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-
-
 ## Overview
 
 ### Screenshots
 
-![Screenshot-Mobile](./Assets/Screenshots/Screenshot-Mobile.jpg)
-![Screenshot-Tablet](./Assets/Screenshots/Screenshot-Tablet.jpg)
-![Screenshot-Laptop](./Assets/Screenshots/Screenshot-Laptop.jpg)
-![Screenshot-Mobile](./Assets/Screenshots/Screenshot-Desktop.jpg)
-
+![Screenshot-Mobile](./assets/Screenshots/Screenshot-Mobile.jpg)
+![Screenshot-Tablet](./assets/Screenshots/Screenshot-Tablet.jpg)
+![Screenshot-Laptop](./assets/Screenshots/Screenshot-Laptop.jpg)
+![Screenshot-Mobile](./assets/Screenshots/Screenshot-Desktop.jpg)
 
 ### Links
 
@@ -43,22 +40,19 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [Styled Components](https://styled-components.com/) - For styles
 - [Vite](https://vitejs.dev/) - For development
 
-
 ### What I learned
+
 - Styled components have more flexibility and easy to reuse as they are components as well.
 - Vite offers a faster development environment and lighter project files.
 
-
-
 ### Continued development
 
- My next step is to learn Separation of Concerns in React:
-  - What does that mean?
-  - Container components
-  - Presentational Components
-  - their corresponding usage.
+My next step is to learn Separation of Concerns in React:
 
-
+- What does that mean?
+- Container components
+- Presentational Components
+- their corresponding usage.
 
 ### Useful resources
 
