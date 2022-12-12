@@ -3,11 +3,9 @@ import {
 	GlobalStyles,
 	Container,
 	StyledCard,
-	StyledCardHeader,
-	StyledCardBody,
 } from './Components/Styled'
 
-import {Card, CardHeader, CardBody} from './Components/Jsx'
+import {Card} from './Components/Jsx'
 
 const App = () => {
 	return (
