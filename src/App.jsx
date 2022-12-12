@@ -1,13 +1,17 @@
 import React from 'react'
-import {GlobalStyles, StyledContainer,StyledCard, StyledCardHeader, StyledCardBody} from './Components/styled'
-
-
+import {
+	GlobalStyles,
+	Container,
+	StyledCard,
+	StyledCardHeader,
+	StyledCardBody,
+} from './Components/styled'
 
 const App = () => {
 	return (
 		<>
 			<GlobalStyles />
-			<StyledContainer>
+			<Container>
 				<StyledCard>
 					<StyledCardHeader>
 						<a
@@ -25,7 +29,7 @@ const App = () => {
 						</p>
 					</StyledCardBody>
 				</StyledCard>
-			</StyledContainer>
+			</Container>
 		</>
 	)
 }
