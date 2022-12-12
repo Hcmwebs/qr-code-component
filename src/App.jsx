@@ -5,7 +5,9 @@ import {
 	StyledCard,
 	StyledCardHeader,
 	StyledCardBody,
-} from './Components/styled'
+} from './Components/Styled'
+
+import {Card, CardHeader, CardBody} from './Components/Jsx'
 
 const App = () => {
 	return (
@@ -13,6 +15,7 @@ const App = () => {
 			<GlobalStyles />
 			<Container>
 				<StyledCard>
+					<Card />
 					<StyledCardHeader>
 						<a
 							href='https://www.frontendmentor.io/'
