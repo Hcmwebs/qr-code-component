@@ -1,7 +1,7 @@
 import React from 'react'
-import { GlobalStyles, Container, StyledCard } from './Components/Styled/index.jsx'
+import { GlobalStyles, Container, StyledCard } from './Components/Styled'
 
-import { Card } from './Components/Jsx/index.jsx'
+import { Card } from './Components/Jsx'
 
 const App = () => {
 	return (
