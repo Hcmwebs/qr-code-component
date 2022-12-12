@@ -41,7 +41,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
 - [Styled Components](https://styled-components.com/) - For styles
-- [Vite](https://vitejs.dev/) - The next generation frontend tooling
+- [Vite](https://vitejs.dev/) - For development
 
 
 ### What I learned
