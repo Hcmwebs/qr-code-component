@@ -4,6 +4,7 @@ import { CardHeader, CardBody } from './index'
 const Card = () => {
 	return (
 		<>
+
 			<CardHeader />
 			<CardBody />
 		</>
