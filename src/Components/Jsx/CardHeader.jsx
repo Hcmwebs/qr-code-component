@@ -10,7 +10,7 @@ const CardHeader = () => {
 					href='https://www.frontendmentor.io/'
 					target='_blank'
 					rel='noopener noreferrer'>
-					<img src='/assets/image-qr-code.png' alt='qr-code' />
+					<img src='./assets/image-qr-code.png' alt='qr-code' />
 				</a>
 			</StyledCardHeader>
 		</>
