@@ -1,9 +1,18 @@
 import React from 'react'
 
+import { StyledCardHeader } from '../Styled'
+
 const CardHeader = () => {
 	return (
 		<>
-			<h2>This is a card header component</h2>
+			<StyledCardHeader>
+				<a
+					href='https://www.frontendmentor.io/'
+					target='_blank'
+					rel='noopener noreferrer'>
+					<img src='/Assets/image-qr-code.png' alt='qr-code' />
+				</a>
+			</StyledCardHeader>
 		</>
 	)
 }

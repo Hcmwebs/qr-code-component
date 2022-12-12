@@ -16,14 +16,6 @@ const App = () => {
 			<Container>
 				<StyledCard>
 					<Card />
-					<StyledCardHeader>
-						<a
-							href='https://www.frontendmentor.io/'
-							target='_blank'
-							rel='noopener noreferrer'>
-							<img src='/Assets/image-qr-code.png' alt='qr-code' />
-						</a>
-					</StyledCardHeader>
 					<StyledCardBody>
 						<h1>Improve your front-end skills by building projects</h1>
 						<p>
