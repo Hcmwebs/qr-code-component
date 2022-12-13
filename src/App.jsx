@@ -1,5 +1,5 @@
 import React from 'react'
-import GlobalStyles from './Components/Styled/GlobalStyles'
+import GlobalStyle from './Components/Styled/GlobalStyle'
 import Container from './Components/Styled/Container'
 
 import { Card } from './Components/Jsx'
@@ -7,7 +7,7 @@ import { Card } from './Components/Jsx'
 const App = () => {
 	return (
 		<>
-			<GlobalStyles />
+			<GlobalStyle />
 			<Container>
 				<Card />
 			</Container>
