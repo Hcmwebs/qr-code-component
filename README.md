@@ -19,14 +19,13 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshots
 
-![Screenshot-Mobile](./assets/Screenshots/Screenshot-Mobile.jpg)
-![Screenshot-Tablet](./assets/Screenshots/Screenshot-Tablet.jpg)
-![Screenshot-Laptop](./assets/Screenshots/Screenshot-Laptop.jpg)
-![Screenshot-Mobile](./assets/Screenshots/Screenshot-Desktop.jpg)
+![Screenshot-Mobile](./public/assets/Screenshots/Screenshot-Mobile.jpg)
+![Screenshot-Tablet](./public/assets/Screenshots/Screenshot-Tablet.jpg)
+![Screenshot-Laptop](./public/assets/Screenshots/Screenshot-Laptop.jpg)
+![Screenshot-Mobile](./public/assets/Screenshots/Screenshot-Desktop.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
