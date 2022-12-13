@@ -1,11 +1,14 @@
 import React from 'react'
 import { CardHeader, CardBody } from './index'
+import StyledCard from '../Styled/StyledCard'
 
 const Card = () => {
 	return (
 		<>
-			<CardHeader />
-			<CardBody />
+			<StyledCard>
+				<CardHeader />
+				<CardBody />
+			</StyledCard>
 		</>
 	)
 }
