@@ -1,6 +1,6 @@
 import React from 'react'
 import { CardHeader, CardBody } from './index'
-import StyledCard from '../Styled/StyledCard'
+import {StyledCard} from '../Styled'
 
 const Card = () => {
 	return (

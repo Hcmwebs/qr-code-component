@@ -1,6 +1,6 @@
 import React from 'react'
 
-import StyledCardHeader  from '../Styled/StyledCardHeader'
+import {StyledCardHeader} from '../Styled'
 
 const CardHeader = () => {
 	return (

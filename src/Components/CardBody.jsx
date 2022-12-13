@@ -1,5 +1,5 @@
 import React from 'react'
-import StyledCardBody  from '../Styled/StyledCardBody'
+import {StyledCardBody} from '../Styled'
 
 const CardBody = () => {
 	return (

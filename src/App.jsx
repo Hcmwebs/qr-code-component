@@ -1,8 +1,8 @@
 import React from 'react'
-import GlobalStyle from './Components/Styled/GlobalStyle'
-import Container from './Components/Styled/Container'
+import{ Container, GlobalStyle }from './Styled'
 
-import { Card } from './Components/Jsx'
+
+import { Card } from './Components'
 
 const App = () => {
 	return (
